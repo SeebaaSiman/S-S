@@ -1,0 +1,21 @@
+{
+  "name": "s-s",
+  "version": "1.0.0",
+  "description": "curso backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeebaaSiman/S-S.git"
+  },
+  "author": "Sebastián Siman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeebaaSiman/S-S/issues"
+  },
+  "homepage": "https://github.com/SeebaaSiman/S-S#readme"
+}
