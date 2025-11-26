@@ -1,0 +1,39 @@
+{
+  "name": "s-s-final",
+  "version": "1.0.0",
+  "description": "Proyecto Final - Curso de Backend con Node.js - TalentoTech 2025",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "express",
+    "firebase",
+    "jwt",
+    "rest-api"
+  ],
+  "author": "Sebastián Siman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "firebase": "^12.6.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "husky": "^8.0.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.6.2"
+  }
+}
